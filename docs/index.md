@@ -88,7 +88,7 @@ is finished and working it is strongly recommended to use the [Let's Encrypt plu
 communication between GitHub and your server is encrypted:
 
 ```shell
-$ dokku letsencrypt $APP_NAME
+$ dokku letsencrypt:enable $APP_NAME
 ```
 
 ## 8. Setup the webhook in Github
